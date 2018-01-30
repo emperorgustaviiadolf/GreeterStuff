@@ -14,4 +14,7 @@ public class greeter {
 		name = newName;
 	}
 	
+	public String toString() {
+		return "Name: " + name + " Age: " + age;
+	}
 }
